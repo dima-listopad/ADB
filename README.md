@@ -16,7 +16,8 @@ adb shell pm list packages | findstr todolist
 adb shell screencap /storage/emulated/0/DCIM/group_22.png 
 adb pull screencap /storage/emulated/0/DCIM/group_22.png C:\Users\Дима\Desktop\ADB
 ```
-![group_22](https://user-images.githubusercontent.com/88891623/138937823-dacff580-6823-4f32-b36b-abce59d3bc8e.png)
+![22_1](https://user-images.githubusercontent.com/88891623/138939182-2221f40a-ae72-497d-8e90-22628ddc4bd8.PNG)
+
 5. Вывести в консоль логи приложения todolist
 ```
 adb logcat | findstr -rnw "todolist"
